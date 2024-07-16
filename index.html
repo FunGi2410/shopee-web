@@ -7,27 +7,40 @@
     <link rel="stylesheet" href="./asset/css/base.css">
     <link rel="stylesheet" href="./asset/css/main.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="./asset/font/fontawesome-free-6.5.2-web/css/all.min.css">
 </head>
 <body>
     <div class="app">
         <header class="header">
-            <nav class="header__nav">
-                <ul class="header__nav-list">
-                    <li class="header_nav-item">Vào cửa hàng</li>
-                    <li class="header_nav-item">Kết nối</li>
-                </ul>
-
-                <ul class="header__nav-list">
-                    <li class="header_nav-item">
-                        <a href="" class="header_nav-item-link">Thông báo</a>
-                    </li>
-                    <li class="header_nav-item">
-                        <a href="" class="header_nav-item-link">Trợ giúp</a>
-                    </li>
-                    <li class="header_nav-item">Đăng nhập</li>
-                    <li class="header_nav-item">Đăng ký</li>
-                </ul>
-            </nav>
+            <div class="grid">
+                <nav class="header__nav">
+                    <ul class="header__nav-list">
+                        <li class="header__nav-item header__nav-item--separate">Vào cửa hàng</li>
+                        <li class="header__nav-item">
+                            Kết nối
+                            <a href="" class="header__nav-icon-link"><i class="fa-brands fa-facebook"></i></a>
+                            <a href="" class="header__nav-icon-link"><i class="fa-brands fa-instagram"></i></a>
+                        </li>
+                    </ul>
+    
+                    <ul class="header__nav-list">
+                        <li class="header__nav-item">
+                            <a href="" class="header_nav-item-link">
+                                <i class="fa-regular fa-bell"></i>
+                                Thông báo
+                            </a>
+                        </li>
+                        <li class="header__nav-item">
+                            <a href="" class="header_nav-item-link">
+                                <i class="fa-regular fa-circle-question"></i>
+                                Trợ giúp
+                            </a>
+                        </li>
+                        <li class="header__nav-item header__nav-item--strong header__nav-item--separate">Đăng ký</li>
+                        <li class="header__nav-item header__nav-item--strong">Đăng nhập</li>
+                    </ul>
+                </nav>
+            </div>
         </header>
 
         <div class="container">
